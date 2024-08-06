@@ -23,9 +23,9 @@ EXPOSE 3000
 CMD ["nodemon", "index.js"]
 
 
-#docker build -t my-node-app .
+#docker build -t server .
 #run container
-#docker run -p 3000:3000 my-node-app
+#docker run -p 3000:3000 server
 
 #build and run with docker compose
 #docker-compose up --build
