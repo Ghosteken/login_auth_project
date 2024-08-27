@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const { connectDatabase } = require("./prisma/prismaClient") 
+const { connectDatabase } = require("./prismaClient")
 const userRoutes = require("./routes/users");
 const authRoutes = require("./routes/auth");
 const helmet = require('helmet');
